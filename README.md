@@ -1,3 +1,3 @@
-# page-template
+# R Projects
 
-The goal of page-template is to provide a quarto template for a simple github page
+Page for publishing R/Quarto projects.
