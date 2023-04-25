@@ -1,19 +1,26 @@
 ---
-title: "Example Page"
-author: "Jacob Saindon"
-theme: quartz
+title: "Project Page"
+author:
+  - name: "Jacob Saindon"
+    url: "https://jacographer.com/"
+    orcid: 0000-0002-3808-9704
+    affiliations:
+      - name: "University of Kentucky"
+date: 2023-04-25
+theme: darkly
 title-block-banner: true
-license: GNU
-citation: true
+license: "GNU GPL-3.0"
+citation:
+  url: "https://jacographer.com/"
 ---
-
-# My Page
 
 ## Load Libraries
 
-`install.packages("tidyverse")`
-
-`install.packages("palmerpenguins")`
+```{r}
+#| eval: false
+install.packages("tidyverse")
+install.packages("palmerpenguins")
+```
 
 ```{r}
 #| message: false
